@@ -106,11 +106,3 @@ def unpack(arc):
 
 
 
-"""def unpack(archive_path):
-    
-    try:
-        arch_path=str(pathlib.Path(archive_path).parent)+'/'+pathlib.PurePath(archive_path).stem
-        shutil.unpack_archive(archive_path, arch_path)
-    except shutil.ReadError:
-        pass"""
-
